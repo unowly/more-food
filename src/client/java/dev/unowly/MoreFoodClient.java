@@ -4,8 +4,7 @@ import net.fabricmc.api.ClientModInitializer;
 
 public class MoreFoodClient implements ClientModInitializer {
 	@Override
-	public void onInitia
-	lizeClient() {
+	public void onInitializeClient() {
 		// This entrypoint is suitable for setting up client-specific logic, such as rendering.
 	}
 }
