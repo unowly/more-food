@@ -3,9 +3,9 @@
 	"id": "more-food",
 	"version": "${version}",
 	"name": "More Food",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This mod will add many new food into the game!",
 	"authors": [
-		"Me!"
+		"unowly"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
