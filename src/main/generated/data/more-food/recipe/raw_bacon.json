@@ -2,10 +2,10 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "more-food:cheese_wheel"
+    "minecraft:porkchop"
   ],
   "result": {
-    "count": 8,
-    "id": "more-food:cheese"
+    "count": 16,
+    "id": "more-food:raw_bacon"
   }
 }

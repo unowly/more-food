@@ -25,7 +25,7 @@ public class MoreFoodRecipeProvider extends FabricRecipeProvider {
             @Override
             public void generate(){
                 RegistryWrapper.Impl<Item> itemLookup = registries.getOrThrow(RegistryKeys.ITEM);
-                //Smelting recipes
+//CHEESE
                 offerSmelting(
                         List.of(Items.MILK_BUCKET),
                         RecipeCategory.FOOD,
@@ -34,16 +34,28 @@ public class MoreFoodRecipeProvider extends FabricRecipeProvider {
                         150,
                         "food"
                 );
-                //CHEESE
                 createShapeless(RecipeCategory.FOOD, ItemInit.CHEESE, 8)
                         .input(ItemInit.CHEESE_WHEEL)
-                        .criterion(hasItem(ItemInit.CHEESE_WHEEL), conditionsFromItem(ItemInit.CHEESE_WHEEL))
-                        .offerTo(exporter);
+                                .criterion(hasItem(ItemInit.CHEESE_WHEEL), conditionsFromItem(ItemInit.CHEESE_WHEEL))
+                                        .offerTo(exporter);
                 createShapeless(RecipeCategory.FOOD, ItemInit.CHEESE_SLICE, 16)
                         .input(ItemInit.CHEESE)
-                        .criterion(hasItem(ItemInit.CHEESE), conditionsFromItem(ItemInit.CHEESE))
-                        .offerTo(exporter);
-                //Burger Shapes
+                                .criterion(hasItem(ItemInit.CHEESE), conditionsFromItem(ItemInit.CHEESE))
+                                        .offerTo(exporter);
+//BACON
+                createShapeless(RecipeCategory.FOOD, ItemInit.RAW_BACON, 16)
+                        .input(Items.PORKCHOP)
+                                .criterion(hasItem(Items.PORKCHOP), conditionsFromItem(Items.PORKCHOP))
+                                        .offerTo(exporter);
+                offerSmelting(
+                        List.of(ItemInit.RAW_BACON),
+                        RecipeCategory.FOOD,
+                        ItemInit.COOKED_BACON,
+                        0.1f,
+                        100,
+                        "food"
+                );
+//Burger
                 createShapeless(RecipeCategory.FOOD, ItemInit.CHEESEBURGER)
                     .input(Items.COOKED_BEEF)
                     .input(Items.BREAD)
@@ -52,13 +64,14 @@ public class MoreFoodRecipeProvider extends FabricRecipeProvider {
                     .criterion(hasItem(Items.BREAD), conditionsFromItem(Items.BREAD))
                     .criterion(hasItem(ItemInit.CHEESE), conditionsFromItem(ItemInit.CHEESE))
                     .offerTo(exporter);
-
                 createShapeless(RecipeCategory.FOOD, ItemInit.HAMBURGER)
                     .input(Items.BREAD)
                     .input(Items.COOKED_BEEF)
                     .criterion(hasItem(Items.BEEF), conditionsFromItem(Items.BEEF))
                     .criterion(hasItem(Items.BREAD), conditionsFromItem(Items.BREAD))
                     .offerTo(exporter);
+//EGGS
+                                
             }
         };
     }

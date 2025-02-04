@@ -20,6 +20,8 @@ public class MoreFoodCreativeTab {
                 entries.add(ItemInit.CHEESE_WHEEL);
                 entries.add(ItemInit.CHEESE);
                 entries.add(ItemInit.CHEESE_SLICE);
+                entries.add(ItemInit.RAW_BACON);
+                entries.add(ItemInit.COOKED_BACON);
             })
             .build());
 

@@ -3,9 +3,13 @@
 091f169c41a6bbb772d96117de3db0cd9ac48cdd data/more-food/advancement/recipes/food/cheese_slice.json
 d6450b05b77a7c9f8c3c0e30feb38884856090bb data/more-food/advancement/recipes/food/cheese_wheel_from_smelting_milk_bucket.json
 3947a54dd8e85cc2de70ac72c7fe306cf756d674 data/more-food/advancement/recipes/food/cheeseburger.json
+d46c81c57599ae7d168b7d03357582ba2c8c4996 data/more-food/advancement/recipes/food/cooked_bacon_from_smelting_raw_bacon.json
 39a943147c5bc75558c6d6ca78371977cde29ba9 data/more-food/advancement/recipes/food/hamburger.json
-3669df3405ad6933b6a865582b1a3f3a9ddeb851 data/more-food/recipe/cheese.json
-429b5790a6d4f53392959125739f26f4641ddf35 data/more-food/recipe/cheese_slice.json
+f2c9953b90625d551dce72e2e295b076f6812160 data/more-food/advancement/recipes/food/raw_bacon.json
+4d97df22b87b542ad402885ea0c65f21b8cc1271 data/more-food/recipe/cheese.json
+e91e79269c0f6ecaf06dde51e857d2f3fb808245 data/more-food/recipe/cheese_slice.json
 73edc74186126b01e4d7e9ad60e0a592cfa1fd6a data/more-food/recipe/cheese_wheel_from_smelting_milk_bucket.json
 85f5f35c8501a5baee017d321c1457286097323a data/more-food/recipe/cheeseburger.json
+b6bb117fe38d1933c793c483c633153e875d6b37 data/more-food/recipe/cooked_bacon_from_smelting_raw_bacon.json
 16a3cfc56bbf4f785ef9eeaa2605765b8d426b47 data/more-food/recipe/hamburger.json
+aa5bf34fa0b1b5e8cc6ce5a9e03c4644817bc0c7 data/more-food/recipe/raw_bacon.json
