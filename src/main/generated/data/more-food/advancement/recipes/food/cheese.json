@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cheese_wheel": {
+      "conditions": {
+        "items": [
+          {
+            "items": "more-food:cheese_wheel"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "more-food:cheese"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cheese_wheel"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "more-food:cheese"
+    ]
+  }
+}

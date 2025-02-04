@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 150,
+  "experience": 0.1,
+  "group": "food",
+  "ingredient": "minecraft:milk_bucket",
+  "result": {
+    "id": "more-food:cheese_wheel"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "more-food:cheese"
+  ],
+  "result": {
+    "count": 1,
+    "id": "more-food:cheese_slice"
+  }
+}
