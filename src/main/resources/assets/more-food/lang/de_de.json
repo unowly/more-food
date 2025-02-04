@@ -1,5 +1,8 @@
 {
   "itemGroup.more-food": "More Food Items",
   "item.more-food.hamburger": "Hamburger",
-  "item.more-food.cheeseburger": "Cheeseburger"
+  "item.more-food.cheeseburger": "Cheeseburger",
+  "item.more-food.cheese": "Käse",
+  "item.more-food.cheese_wheel": "Käserad",
+  "item.more-food.cheese_slice": "Käsescheibe"
 }

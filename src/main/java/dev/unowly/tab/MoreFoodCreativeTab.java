@@ -17,6 +17,9 @@ public class MoreFoodCreativeTab {
             .entries((context, entries) ->{
                 entries.add(ItemInit.HAMBURGER);
                 entries.add(ItemInit.CHEESEBURGER);
+                entries.add(ItemInit.CHEESE_WHEEL);
+                entries.add(ItemInit.CHEESE);
+                entries.add(ItemInit.CHEESE_SLICE);
             })
             .build());
 
